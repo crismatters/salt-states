@@ -1,0 +1,10 @@
+ {% set mysql = salt['grains.filter_by']({
+   'Debian': {
+     'configfile': '/etc/mysql/mysql.conf.d/mysqld.cnf',
+     'configsource': 'salt://mysql/config/debian-mysld.cnf',
+   },
+   'RedHat': {
+     'configfile': '/etc/mysql/mysql.conf.d/mysqld.cnf',
+     'configsource': 'salt://mysql/config/redhat-server.cnf',
+    },
+ })%}
