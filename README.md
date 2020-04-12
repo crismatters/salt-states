@@ -5,8 +5,10 @@ Some basic salt states for understanding configurarion management
 Some orchestration states for a webserver deployment using orchestration runner
 
 # Vagrantfile
+```ruby
  Vagrant.configure(2) do |config|
   net = "192.168.56"
+```
 ## Salt Master (Ubuntu 18.04 Bionic Beaver)
 ```ruby
   config.vm.define "master" do |master|
