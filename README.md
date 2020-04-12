@@ -1,6 +1,7 @@
 # Salt States
 Some basic salt states for understanding configurarion management
-
+## Pillar Data
+To test this configuratio put [this repository files](https://github.com/crismatters/salt-pillar "this repository files") in your pillar_roots
 # Salt Orch
 Some orchestration states for a webserver deployment using orchestration runner
 
