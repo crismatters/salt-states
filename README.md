@@ -5,6 +5,7 @@ Some basic salt states for understanding configurarion management
 Some orchestration states for a webserver deployment using orchestration runner
 
 # Vagrantfile
+Use this Vagrant environment to test the complete orchestration states
 ```ruby
  Vagrant.configure(2) do |config|
   net = "192.168.56"
